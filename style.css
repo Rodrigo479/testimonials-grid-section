@@ -130,7 +130,7 @@ body {
 }
 
 .main__testimony-quote,
-.main__testimony-status {
+.main__testimony-status, .attribution {
     font-family: 'BarlowSemiCondensed-Regular', sans-serif;
 }
 
