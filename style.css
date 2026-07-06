@@ -11,15 +11,22 @@
     --black: hsl(0, 0%, 7%);
 
     /* spacing */
-    --xl: clamp(1.563rem, calc(1.449rem + 0.568vw), 1.875rem); /*25 30*/
-    --l: clamp(1.250rem, calc(1.136rem + 0.568vw), 1.563rem); /*20 25*/
-    --medium: clamp(0.938rem, calc(0.824rem + 0.568vw), 1.250rem); /*15 20*/
-    --small: clamp(0.625rem, calc(0.511rem + 0.568vw), 0.938rem); /*10 15*/
+    --xl: clamp(1.563rem, calc(1.449rem + 0.568vw), 1.875rem);
+    /*25 30*/
+    --l: clamp(1.250rem, calc(1.136rem + 0.568vw), 1.563rem);
+    /*20 25*/
+    --medium: clamp(0.938rem, calc(0.824rem + 0.568vw), 1.250rem);
+    /*15 20*/
+    --small: clamp(0.625rem, calc(0.511rem + 0.568vw), 0.938rem);
+    /*10 15*/
 
     /* font size */
-    --l-text: clamp(0.938rem, calc(0.878rem + 0.295vw), 1.100rem); /*15 17.6*/
-    --m-text: clamp(0.750rem, calc(0.727rem + 0.114vw), 0.813rem); /*12 13*/
-    --s-text: clamp(0.625rem, calc(0.598rem + 0.136vw), 0.700rem); /*10 11.2*/
+    --l-text: clamp(0.938rem, calc(0.878rem + 0.295vw), 1.100rem);
+    /*15 17.6*/
+    --m-text: clamp(0.750rem, calc(0.727rem + 0.114vw), 0.813rem);
+    /*12 13*/
+    --s-text: clamp(0.625rem, calc(0.598rem + 0.136vw), 0.700rem);
+    /*10 11.2*/
 
     /* avatar */
     --avatar: 35px;
@@ -125,12 +132,13 @@ body {
 }
 
 .main__testimony-cite,
-.main__testimony-title {
+.main__testimony-title,
+.attribution {
     font-family: 'BarlowSemiCondensed-SemiBold', sans-serif;
 }
 
 .main__testimony-quote,
-.main__testimony-status, .attribution {
+.main__testimony-status {
     font-family: 'BarlowSemiCondensed-Regular', sans-serif;
 }
 
