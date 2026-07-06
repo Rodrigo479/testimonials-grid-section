@@ -106,15 +106,10 @@ body {
 
 .main__testimony-author-img {
     display: block;
-    max-width: var(--avatar);
-    width: 100%;
+    width: var(--avatar);
+    height: var(--avatar);
     align-self: center;
-    border-radius: var(--avatar);
-}
-
-.main__testimony-author-wrapper {
-    display: flex;
-    flex-direction: column;
+    border-radius: 50%;
 }
 
 .visually-hidden {
@@ -131,12 +126,12 @@ body {
 
 .main__testimony-cite,
 .main__testimony-title {
-    font-family: 'BarlowSemiCondensed-SemiBold';
+    font-family: 'BarlowSemiCondensed-SemiBold', sans-serif;
 }
 
 .main__testimony-quote,
 .main__testimony-status {
-    font-family: 'BarlowSemiCondensed-Regular';
+    font-family: 'BarlowSemiCondensed-Regular', sans-serif;
 }
 
 .main__testimony-cite {
@@ -151,46 +146,45 @@ body {
     content: "\201D";
 }
 
-#main__testimony--first {
+.main__testimony--first {
     background: var(--purple-500);
 }
 
-#main__testimony--second {
+.main__testimony--second {
     background: var(--grey-500);
 }
 
-#main__testimony--fourth {
+.main__testimony--fourth {
     background: var(--dark-blue);
 }
 
-#main__testimony--third,
-#main__testimony--fifth {
+.main__testimony--third,
+.main__testimony--fifth {
     background: white;
     color: var(--grey-500);
 }
 
-#main__testimony--first *,
-#main__testimony--second *,
-#main__testimony--fourth * {
+.main__testimony--first *,
+.main__testimony--second *,
+.main__testimony--fourth * {
     color: white;
 }
 
-#main__testimony--first .main__testimony-author-img {
+.main__testimony--first .main__testimony-author-img {
     border: var(--border) var(--purple-300);
 }
 
-#main__testimony--second .main__testimony-author-img {
+.main__testimony--second .main__testimony-author-img {
     border: var(--border) var(--grey-200);
 }
 
-#main__testimony--fourth .main__testimony-author-img {
+.main__testimony--fourth .main__testimony-author-img {
     border: var(--border) var(--purple-500);
 }
 
 .main__testimony {
     margin-inline: var(--xl);
     border-radius: 5px;
-    -webkit-box-shadow: var(--b-shadow);
     box-shadow: var(--b-shadow);
 }
 
@@ -204,7 +198,7 @@ body {
         flex: 1 1 200px;
     }
 
-    #main__testimony--first {
+    .main__testimony--first {
         background-image: url('images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
         background-position: 85% top;
@@ -224,23 +218,23 @@ body {
         align-items: stretch;
     }
 
-    #main__testimony--first {
+    .main__testimony--first {
         grid-area: first;
     }
 
-    #main__testimony--second {
+    .main__testimony--second {
         grid-area: second;
     }
 
-    #main__testimony--third {
+    .main__testimony--third {
         grid-area: third;
     }
 
-    #main__testimony--fourth {
+    .main__testimony--fourth {
         grid-area: fourth;
     }
 
-    #main__testimony--fifth {
+    .main__testimony--fifth {
         grid-area: fifth;
     }
 }
